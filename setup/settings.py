@@ -33,8 +33,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 DEBUG = True
 
 ALLOWED_HOSTS = [
-                'blog-ser-solidario.vercel.app', 
-                 'blog-ser-solidario-dmkrbrghw-luiz-felipes-projects-acfe665e.vercel.app', 
+                'blog-ser-solidario.vercel.app',  
                  '.now.sh', '127.0.0.1', 
                  'localhost'
     ]
