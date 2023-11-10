@@ -13,7 +13,7 @@
             "src": "build.sh",
             "use": "@vercel/static",
             "config": {
-                "distDir": "staticfiles"
+                "distDir": "staticfiles/static"
             }
         }
     ],
@@ -28,6 +28,6 @@
         }
     ], 
 
-    "outputDirectory": "staticfiles"
+    "outputDirectory": "staticfiles/static"
 
 }
